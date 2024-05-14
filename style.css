@@ -39,7 +39,6 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 0 4rem;
-    font-family: var(--madami-one);
 }
 
 ul{
@@ -58,6 +57,9 @@ nav ul a{
     color: var(--basic-color-two);
 }
 
+nav h1{
+    font-family: var(--madami-one);
+}
 
 /*Basic Styles*/
 h1, h2, h3{
