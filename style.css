@@ -7,6 +7,9 @@
     --basic-color-two: #f7f8fa;
     --link-color: #964b00;
     --hover-link-color: #a75502;
+    --action-color: #6dd377;
+    --action-dark-color: #80AB82;
+    --action-hot-color: #42e653;
     --font-size: 1.3rem;
     --encode-sans: "Encode Sans", sans-serif;
     --madami-one: "Madimi One", sans-serif;
@@ -57,11 +60,11 @@ h1, h2, h3{
 }
 
 a{
-    color: var(--link-color);
+    color: var(--action-color);
 }
 
 a:hover{
-    color: var(--hover-link-color);
+    color: var(--action-hot-color);
 }
 
 /*Intro styles*/
@@ -98,6 +101,6 @@ a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--color-one);
+    background-color: var(--action-dark-color);
     padding: 3rem 20rem;
 }
