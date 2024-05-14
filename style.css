@@ -68,3 +68,13 @@ a:hover{
     font-size: 4rem;
     font-weight: normal;
 }
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-one);
+    padding: 3rem 20rem;
+}
