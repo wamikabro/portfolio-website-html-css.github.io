@@ -1,0 +1,22 @@
+:root {
+    --basic-color-one: #171321;
+    --color-one: #BD2A2E;
+    --color-two: #3B3936;
+    --color-three: #B2BEBF;
+    --color-four: #889C9B;
+    --color-five: #486966;
+    --basic-color-two: #f7f8fa;
+    --font-size: 1.3rem;
+    --encode-sans: "Encode Sans", sans-serif;
+    --sans: Oxygen, sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
