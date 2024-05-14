@@ -1,11 +1,12 @@
 :root {
-    --basic-color-one: #171321;
-    --color-one: #BD2A2E;
-    --color-two: #3B3936;
+    --basic-color-one: #011627;
+    --color-one: #d1242a;
     --color-three: #B2BEBF;
     --color-four: #889C9B;
     --color-five: #486966;
     --basic-color-two: #f7f8fa;
+    --link-color: #964b00;
+    --hover-link-color: #a75502;
     --font-size: 1.3rem;
     --encode-sans: "Encode Sans", sans-serif;
     --madami-one: "Madimi One", sans-serif;
@@ -25,4 +26,45 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: var(--encode-sans);
+    background-color: var(--basic-color-one);
+    color: var(--basic-color-two);
+    font-size: var(--font-size);
+}
+
+h1, h2, h3{
+    margin: 0px;
+}
+
+a{
+    color: var(--link-color);
+}
+
+a:hover{
+    color: var(--hover-link-color);
+}
+
+/*Intro styles*/
+#intro{
+    padding-bottom: 10rem;
+}
+
+#intro p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#intro .name{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name span{
+    font-family: var(--madami-one);
+    font-size: 4rem;
+    color: var(--color-one);
+    display: block;
+}
+
+#intro h2{
+    font-size: 4rem;
+    font-weight: normal;
 }
