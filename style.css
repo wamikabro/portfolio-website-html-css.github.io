@@ -38,8 +38,13 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 1rem;
+    margin: 0 4rem;
     font-family: var(--madami-one);
+}
+
+ul{
+    text-align: left;
+    padding: 0px;
 }
 
 nav ul{
@@ -70,7 +75,7 @@ a:hover{
 /*Intro styles*/
 #intro{
     padding-bottom: 10rem;
-    margin: 0 1rem;
+    margin: 0 4rem;
 }
 
 #intro p{
