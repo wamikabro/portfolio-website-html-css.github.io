@@ -37,25 +37,31 @@ body{
 /*Navigation styles*/
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 1rem 4rem;
 }
 
-ul{
+nav ul{
     text-align: left;
     padding: 0px;
     margin: 0px;
-}
-
-nav ul{
     display: flex;
+    align-items: center;
+    justify-content: center;
     column-gap: 2rem;
     list-style-type: none;
+    flex-flow: row wrap;
 }
 
-nav ul a{
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav a{
     text-decoration: none;
     color: var(--basic-color-two);
+    display: block;
 }
 
 nav h1{
@@ -110,5 +116,5 @@ a:hover{
     align-items: center;
     text-align: center;
     background-color: var(--action-dark-color);
-    padding: 3rem 20rem;
+    padding: 3rem 20%;
 }
