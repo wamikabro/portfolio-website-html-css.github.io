@@ -159,3 +159,10 @@ footer p{
 footer [class*='fa-']{
     font-size: 50px;
 }
+
+
+.gradient{
+    width: auto;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(175,236,231,1) 0%, rgba(252,100,113,1) 100%);
+}
