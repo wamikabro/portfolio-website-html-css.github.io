@@ -35,12 +35,6 @@ body{
 }
 
 /*Navigation styles*/
-nav{
-    display: flex;
-    justify-content: flex-end;
-    margin: 1rem;
-}
-
 nav [class*='fa-'] {
     font-size: 150%;
     color: var(--color-one);
