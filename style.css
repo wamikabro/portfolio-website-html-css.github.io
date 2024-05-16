@@ -1,15 +1,11 @@
 :root {
     --basic-color-one: #011627;
-    --color-one: #d1242a;
-    --color-three: #B2BEBF;
-    --color-four: #889C9B;
-    --color-five: #486966;
+    --action-color: #FC6471;
+    --action-dark-color: #9b3840;
+    --action-hot-color: #ff4555;
+    --color-one: #AFECE7;
     --basic-color-two: #f7f8fa;
-    --link-color: #964b00;
-    --hover-link-color: #a75502;
-    --action-color: #6dd377;
-    --action-dark-color: #80AB82;
-    --action-hot-color: #42e653;
+
     --font-size: 1.3rem;
     --encode-sans: "Encode Sans", sans-serif;
     --madami-one: "Madimi One", sans-serif;
