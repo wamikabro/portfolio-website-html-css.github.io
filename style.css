@@ -54,6 +54,17 @@ nav h1 [class*='fa-']{
     font-size: 100%;
 }
 
+.button{
+    background-color: var(--action-color);
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.button:hover{
+    color: var(--basic-color-two);
+    background-color: var(--action-hot-color);
+}
+
 nav ul{
     text-align: left;
     padding: 0px;
