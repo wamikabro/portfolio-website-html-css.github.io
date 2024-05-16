@@ -2,7 +2,7 @@
 @media (min-width: 850px) {
     nav{
         max-width: 1200px;
-        margin: 10px auto;
+        margin: 10px 2rem;
     }
 
     nav li:first-child{
