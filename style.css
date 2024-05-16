@@ -46,6 +46,14 @@ nav [class*='fa-'] {
     color: var(--color-one);
 }
 
+nav [class*='fa-']:hover{
+    color: var(--action-hot-color);
+}
+
+nav h1 [class*='fa-']{
+    font-size: 100%;
+}
+
 nav ul{
     text-align: left;
     padding: 0px;
