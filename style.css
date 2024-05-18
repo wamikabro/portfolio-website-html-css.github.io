@@ -14,6 +14,7 @@
     --font-size: 1.3rem;
     --encode-sans: "Encode Sans", sans-serif;
     --madami-one: "Madimi One", sans-serif;
+    --courier-new: 'Courier New', Courier, monospace;
 }
 
 html{
@@ -116,7 +117,7 @@ a:hover{
 }
 
 #intro .name{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--courier-new);
 }
 
 .name span{
@@ -132,9 +133,67 @@ a:hover{
 }
 
 /*Projects*/
-.projects{
-    background-color: var(--project-section-color);
+#projects{
+    padding: 4rem 1rem;
 }
+
+#projects h2{
+    font-size: 2.5rem;
+    line-height: cal(2.5rem * 1.5);
+}
+
+#projects h3{
+    color: var(--color-one)
+}
+
+#projects h4{
+    margin: 0px;
+    font-size: 1rem;
+    font-family: var(--courier-new);
+}
+
+#projects p{
+    font-size: 1rem;
+    background-color: var(--basic-color-one);
+    padding: 1rem;
+    border-radius: 10px;
+    color: var(--basic-color-two);
+    line-height: 1.5;
+}
+
+#projects ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1rem;
+}
+
+#projects img{
+    border-top: 1px solid var(--color-one);
+    border-left: 1px solid var(--color-one);
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 2rem 0 4rem 0;
+}
+
+.projectsBackground{
+    background-color: var(--project-section-color);
+    
+}
+
+#projects h2{
+    margin-bottom: 4rem;
+}
+
+#projects img{
+    width: 80%;
+    height: 80%;
+}
+
 
 /*Contact Styles*/
 #contact {
