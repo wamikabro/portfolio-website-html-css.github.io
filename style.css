@@ -177,7 +177,7 @@ a:hover{
     border-left: 1px solid var(--color-one);
     border-radius: 25px;
     padding: 1rem;
-    margin: 2rem 0 4rem 0;
+    margin-bottom: 4rem;
 }
 
 .projectsBackground{
@@ -189,9 +189,8 @@ a:hover{
     margin-bottom: 4rem;
 }
 
-#projects img{
-    width: 80%;
-    height: 80%;
+#projects img {
+    width: 100%;
 }
 
 
