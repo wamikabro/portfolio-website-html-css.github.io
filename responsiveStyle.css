@@ -24,6 +24,10 @@
         grid-row: 1/2;
     }
 
+    #projects .reverse img{
+        grid-column: 6/11;
+    }
+
     .text{
         grid-column: 5/11;
         grid-row: 1/2;
@@ -31,7 +35,18 @@
         text-align: right;
     }
 
+    #projects .reverse .text{
+        grid-column: 1/7;
+        text-align: left;
+    }
+
     #projects ul{
         justify-content: flex-end;
     }
+
+    #projects .reverse ul{
+        justify-content: flex-start;
+    }
+
+    
 }
